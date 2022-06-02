@@ -15,7 +15,7 @@ OWNER_ID=your id
 
 Run:
 ```
-docker run --rm --env-file .env -v /var/valorant-bot laurenwojcik/valorant-discord-bot
+docker run --rm --env-file .env -d -v /var/valorant-bot laurenwojcik/valorant-discord-bot
 ```
 This will persist data in a docker volume. 
 See the [bot repo](https://github.com/staciax/Valorant-DiscordBot) for additional information. :)
